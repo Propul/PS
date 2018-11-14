@@ -1,0 +1,535 @@
+/* common */
+html,body,p,h4,h3,h6,ul,a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+ }
+.clearfix:after { clear:both; }
+.wrap {
+    width:827px;
+    margin: 0 auto;
+}
+/* top-menu */
+.top-menu {
+    background-color: #f56262;
+    height: 96px;
+    margin-top: 20px;
+}
+.top-menu .wrap {
+    padding-top: 16px;
+}
+.top-menu .logo{
+    float: left;
+}
+.top-menu .menus {
+    float: right;
+    padding-left:0;
+    margin: 17px 0;
+}
+.top-menu .menus li{
+    float: left;
+    width: 67px;
+    height: 30px;
+    list-style: none;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.8s;
+}
+.top-menu .menus li.active,
+.top-menu .menus li:hover{
+    background-color: #232324;
+}
+.top-menu .menus li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* slider */
+.slider{
+    height: 554px;
+    background-color: #eb4f4e;
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+}
+.slider-con {
+    position: relative;
+}
+.slider h4{
+    font-size: 52px;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.slider p{
+    font-size: 17.4px;
+    margin-top: 20px;
+}
+.slider img{
+    padding-top:28px;
+}
+.slider .arrow-rev{
+    position: absolute;
+    top: 244px;
+    left: -138px;
+}
+.slider .arrow-next{
+    position: absolute;
+    top: 244px;
+    right: -138px;
+}
+/* merits */
+.merits{
+    height: 319px;
+    background-color: #232324;
+    margin-top: 0;
+}
+.merits .wrap  h4{
+    font-size: 26.21px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 39px;
+    letter-spacing: 5px;
+}
+.merits .wrap  p{
+    font-size: 15.6px;
+    color: #e74c3c;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 6px;
+}  
+.merits .wrap{
+    text-align: center;
+}
+.merits .wrap  .merits-pic{
+    float: left;
+    width: 33.3%;
+    margin-top: 25px;
+}
+.merits .wrap  .merits-pic h3{
+    font-size: 22px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.merits .wrap  .merits-pic h6{
+    color:#e74c3c;
+    font-size: 14px;
+    font-weight: normal;
+    text-indent: -18px;
+    margin-bottom: 18px;
+}
+/* team */
+.team{
+    background-color: #6cc372;
+    height: 449px;
+} 
+.team .wrap{
+    text-align: center;
+}
+.team .wrap h4{
+    font-size: 34.8px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 5px;
+}
+.team .wrap p{
+    color: #232324;
+    font-size: 17.4px;
+    font-weight: normal;
+    margin-top: 6px;
+}
+.team .wrap .wrap-con{
+    text-align: center;
+}
+.team .wrap .wrap-con .item-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.team .item{
+    height: 297px;
+    width: 198px;
+    background-color: #fff;
+    border-radius: 6px;
+} 
+.team .name{
+    font-size: 20px;
+    font-weight: normal;
+    color: #6cc372;
+    margin-top: 10px;
+} 
+.item-img{
+    margin-top: 20px;
+} 
+.item-img img{
+    border: 8px solid #6cc372;
+    border-radius: 50%;
+}
+.job{
+    font-size: 14px;
+    font-weight: normal;
+    color: #e74c3c;
+    line-height: 30px;
+    margin-top: 5px;
+} 
+.btn{
+    height: 37px;
+    width: 175px;
+    background-color: #6cc372;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 6px;
+    margin-top:10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+} 
+.btn img{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+} 
+.btn:hover{
+    opacity: .7;
+}
+/* protfolio */
+.protfolio{
+    height: 506px;
+    background-color: #f0f0f0;
+    text-align: center;
+} .protfolio .wrap h4{
+    font-size: 34.8px;
+    font-weight: normal;
+    color: #616161;
+    padding-top: 39px;
+}
+.protfolio .img-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+} 
+.protfolio .wrap p{
+    font-size: 17.4px;
+    color: #61af66;
+    margin-top: 6px;
+} 
+.protfolio .data{
+    margin-top: 20px;
+    color: #232324;
+}
+.protfolio .round{
+    height: 20px;
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.protfolio .round span{
+    margin-top: 25px;
+    height: 8px;
+    width: 8px;
+    background-color: #232324;
+    border-radius: 50%;
+    display: inline-block;
+} 
+.protfolio .round span.on{
+    background-color: #61af66;
+}
+.protfolio .arrow{
+    position: relative;
+} 
+.protfolio .prev{
+    position: absolute;
+    top: -137px;
+    left: -107px;
+} 
+.protfolio .next{
+    position: absolute;
+    top: -137px;
+    right: -107px;
+}
+/* pricing */
+.pricing{
+    height:320px;
+    background-color: #ffffff;
+    position: relative;
+    border-top: 2px solid #a5a5a5;
+}
+.pricing p{
+    text-align: center;
+    margin-top: 20px;
+    color: #eb4f4e;
+    font-size: 17.41px;
+}
+.pricing .plan-aside{
+    height: 350px;
+    width: 260px;
+    float: left;
+    width: 33.3%;
+    margin-top: -80px;
+}
+.pricing .title{
+    height:78px;
+    width: 260px;
+    background-color: #fff;
+    text-align: center;
+}
+.pricing .title h4{
+    color: #616161;
+    font-size: 34px;
+    color: #616161;
+    font-weight: normal;
+}
+.pricing .title p{
+    color: #eb4f4e;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.pricing .content{
+    height: 195px;
+    width: 260px;
+    background-color: #ddd;
+    border-bottom: 1px solid #000;
+    margin-top: 2px;
+}
+.pricing li{
+    line-height: 48px;
+    border-bottom: 1px solid #f0f0f0;
+    text-align: center;
+} 
+.pricing a{
+   font-size:15px;
+   color: #616161;
+
+}
+.pricing .price{
+    height: 75px;
+    background-color: #616161;
+    color: #fff;
+    width: 260px;
+    line-height: 75px;
+    position: relative;
+}
+.pricing .dollar{
+    font-size: 25px;
+    margin-left: 11px;
+    margin-top:-5px;
+}
+.pricing .money{
+    font-size: 45px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.pricing .date{
+    font-size: 20px;
+   position: absolute;
+   top: 15px;
+}
+.pricing .price  button{
+    height: 28px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 17px;
+    color: #cacaca;
+    background-color: #fff;
+  
+} 
+.pricing .price button:hover{
+    opacity: .6;
+}
+.pricing .center{
+    margin-top: -120px;
+   
+}
+.pricing .center .title{
+   padding:20px 0 20px 0;
+   position: relative;
+
+} 
+.pricing .center .title h4{
+    margin-top: -18px;
+} 
+.pricing .center .title p{
+    color: #535354;
+} 
+.pricing .icon{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pricing .icon img{
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+.pricing .center .price{
+    background-color: #eb4f4e;
+}
+.pricing .center button{
+    color: #eb4f4e;
+}
+.pricing p{
+    font-size: 15px;
+    color: #eb4f4e;
+    margin-top: 14px;
+}
+/* tweets */
+.tweets{
+    height: 240px;
+    background-color:#eb4f4e;
+    text-align: center;
+}
+.tweets .wrap h4{
+    color: #fff;
+    font-size: 34.8px;
+    font-weight: normal;
+    padding-top: 39px;
+    letter-spacing: 5px;
+}
+.tweets .wrap p{
+    color: #232324;
+    font-size: 17.4px;
+    margin-top: 9px;
+}
+.bird{
+    margin-top: 20px;
+}
+.tweets a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #232324;
+    line-height: 30px;
+    position: relative;
+} 
+.tweets a:hover {
+    background-color: #535354;
+}
+.tweets .arrow{
+    position: relative;
+}
+.tweets .prev-arrow{
+    position: absolute;
+    top: -105px;
+    left: -107px
+}
+.tweets .next-arrow{
+    position: absolute;
+    top: -105px;
+    right: -107px
+}
+.tweets .info{
+    margin-top: 10px;
+}
+.tweets .info p{
+    font-size: 15px;
+    color: #232324;
+}
+.tweets .info span{
+    color: #fff;
+    font-size: 16px;
+}
+/* footer */
+.footer {
+    height: 260px;
+    background-image: url(".\images\footer-map.png");
+    position: relative;
+}
+.footer .info{
+    height: 40px;
+    width: 100%;
+    background-color: #232324;
+    float: left;
+}
+.footer .map img{
+    width: 100%;
+    height: 260px;
+}
+.footer .news{
+    float: left;
+}
+.footer .news p{
+    font-size: 15.6px;
+    color: #fff;
+    line-height: 40px;
+}
+.footer .news span{
+    color: #e74c3c;
+}
+.footer .nav-icon{
+    float: right;
+}
+.footer .nav-icon a{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 3px;
+ }
+.footer .nav-icon a:hover{
+     opacity: .6;;
+ }
+.footer .info-con{
+    text-align: center;
+    width: 530px;
+    height: 130px;
+    background-color: #302c25;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 45px;
+    margin-left: 148px;
+    position: relative;
+}
+.footer .info-con h4{
+    font-size: 26px;
+    letter-spacing: 5px;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.footer .info-con p{
+    color: #eb4f4e;
+    font-size: 15px;
+    margin-top: 16px;
+}
+.footer .triangel{
+    background-color: #f0f0f0;
+    text-align: center;
+    position: absolute;
+    bottom: -10px;
+    right: 260px;
+    width:0px;
+    height:0px;
+    border-top: 10px solid #232324;
+    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+}
+.footer .attach{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+}
